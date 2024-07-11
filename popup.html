@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>关键词采集</title>
+	<link rel="stylesheet" href="css/popup.css">
+</head>
+<body>
+<div class="container">
+	<div id="pageSearchKeywords" class="input-field">
+		<textarea id="keywords" placeholder="请输入域名，多个域名换行"></textarea>
+		<button id="submit">提取搜索词</button>
+	</div>
+
+	<div id="popup" class="custom-popup">
+		<div class="custom-popup-overlay"></div>
+		<div class="custom-popup-content">
+			<span id="message" class="custom-popup-question"></span>
+			<button id="closePopupBtn" class="custom-popup-close-btn">确认</button>
+		</div>
+	</div>
+	<span id="openOptions" class="settings-icon">设置</span>
+	<span id="moreButton" class="more-icon">更多</span>
+</div>
+</body>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/popup.js"></script>
+</html>

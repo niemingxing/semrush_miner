@@ -1,0 +1,39 @@
+{
+	"manifest_version": 3,
+	"name": "semrush关键词提取",
+	"version": "1.1",
+	"description": "自动化批量提取semrush关键词",
+	"author": "niemingxing",
+	"icons":
+	{
+		"16":"icon16.png",
+		"48":"icon48.png",
+		"128":"icon128.png"
+	},
+	"action":
+	{
+		"default_icon": "icon16.png",
+		"default_popup": "popup.html"
+	},
+	"options_page": "options.html",
+	"background":
+	{
+		"service_worker": "js/background.js"
+	},
+	"host_permissions": [
+		"https://api.kaipm.com/*"
+	],
+	"content_scripts": 
+	[
+		{
+			"matches": ["https://sem.3ue.com/*"],
+			"js": ["js/content-script.js"]
+		}
+	],
+	"permissions": [
+		"storage",
+		"activeTab",
+		"tabs",
+		"scripting"
+	]
+}
