@@ -1,4 +1,4 @@
-# search-recommendations
+# semrush_miner
 插件名称: semrush关键词提取
 
 插件介绍:
