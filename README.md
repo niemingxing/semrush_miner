@@ -6,6 +6,11 @@ SEMrush域名自然流量关键词批量提取Chrome插件是一款设计简洁�
 
 获取密钥：加V获取密钥
 
+示例图片|[安装参考](https://www.bilibili.com/video/BV1514y1U7Uw/?vd_source=07bc57c14ff07a0d104533f8de5fb6d3)
+
+<img width="1501" alt="image" src="https://github.com/user-attachments/assets/45a0194f-6f49-4296-8b4f-6462de04f00a">
+
+
 ### 交流方式(使用过程中有任何问题或者有很好的idea，非常欢迎一起交流共建)：
 
 ![vx:histargo](https://i.ibb.co/hMbTs1G/a3779b33-bfe2-4ff9-a592-f0ec090a3055-1-2.jpg)
