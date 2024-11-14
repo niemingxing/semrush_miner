@@ -21,7 +21,7 @@
 		}
 		else if(type == "recommend")
 		{
-			result = document.querySelectorAll('div[data-ui-name="DefinitionTable.Body"] > div');
+			result = document.querySelectorAll('div[data-ui-name="DefinitionTable.Body"] > h3');
 		}
 		return result;
 	}
